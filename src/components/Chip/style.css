@@ -1,0 +1,26 @@
+.genres,
+.studios,
+.producers,
+.licensors {
+  margin: 6px;
+}
+
+.genresColor {
+  background-color: rgb(20, 98, 243) !important;
+  color: #fff !important;
+}
+
+.studiosColor {
+  background-color: rgb(6, 196, 123) !important;
+  color: #fff !important;
+}
+
+.producersColor {
+  background-color: rgb(161, 32, 236) !important;
+  color: #fff !important;
+}
+
+.licensorsColor {
+  background-color: rgb(236, 32, 117) !important;
+  color: #fff !important;
+}
