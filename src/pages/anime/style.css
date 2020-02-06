@@ -1,0 +1,136 @@
+#anime {
+  margin-top: 15px;
+}
+
+.banner {
+  width: 220px;
+  height: 300px;
+  background-size: cover;
+  align-self: center;
+  border-radius: 5px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 1);
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.content-custom {
+  border-radius: 7px;
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.base-info {
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  max-width: 100%;
+  display: grid;
+  gap: 10;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.list-episodio,
+.list-character {
+  color: #000 !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-list button {
+  border: 1px solid #fff;
+  background-color: #28405e;
+  cursor: pointer;
+  color: #fff;
+  width: 50px;
+}
+
+.synopsis .text-synopsis {
+  max-width: 100%;
+  padding: 15px;
+  font-size: 13pt;
+}
+
+.infos {
+  padding: 35px;
+  width: 50%;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 15px 15px;
+}
+
+.infos .tecnical-infos ul {
+  list-style-type: none;
+}
+
+.tecnical-infos {
+  padding: 0px 5px 0px 15px;
+}
+
+.aired {
+  margin: 6px;
+}
+
+.airedColor {
+  background-color: rgb(255, 60, 60) !important;
+  color: #fff !important;
+}
+
+@media (max-width: 773px) {
+  .content-custom {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .infos {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .banner {
+    margin-top: 15px;
+  }
+
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .content-custom {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .infos {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .banner {
+    margin-top: 15px;
+  }
+
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
